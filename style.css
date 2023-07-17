@@ -76,3 +76,95 @@ margin-bottom: 0;
     width: 475px;
     height: 475px;
 }
+
+/*baner section end*/
+
+.logos{
+    display: flex;
+    margin-top: 50px;
+    padding: 0 450px;
+    gap: 50px;
+}
+
+.items{
+    margin-top: 130px;
+}
+
+.item-image{
+    border: 1px solid saddlebrown;
+}
+.item-head{
+    text-align: center;
+    color: #3A3A3A;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+.item-image{
+    display: flex;
+    justify-content: center;
+}
+
+
+.item-title{
+    color:  #18191F;
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.price{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1.5rem ;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.items-details{
+    color:#787885;
+    font-size: 0.87rem;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.item-image .card{
+    padding: 30px;
+    margin: 50px;
+    width: 329px;
+    height: 476px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.gear{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px;
+
+}
+
+.feature-head{
+    color: #0A0826;
+font-size: 2.37rem;
+font-weight: 700;
+}
+
+.feature-details{
+    color: #6C6C6C;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.join-btn{
+    border: 0;
+    background-color: #E02C6D;
+    color: #FFF;
+    padding: 10px 25px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
