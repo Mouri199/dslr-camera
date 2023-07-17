@@ -81,6 +81,7 @@ margin-bottom: 0;
 
 .logos{
     display: flex;
+    justify-content: center;
     margin-top: 50px;
     padding: 0 450px;
     gap: 50px;
@@ -168,3 +169,80 @@ font-weight: 700;
     font-weight: 700;
 }
 
+/* feature style end*/
+
+.footer-style{
+    background: #0A0826;
+    border: 1px solid saddlebrown;
+    text-align: center;
+    padding: 120px;
+}
+
+.products{
+    color: #FFF;
+font-size: 1.5rem;
+font-weight: 700;
+}
+.footer-detailts{
+    color: #D9DBE1;
+font-size: 1rem;
+font-weight: 500;
+}
+
+.footer-end{
+    color:  #D9DBE1;
+    font-size: 1rem;
+   font-weight: 500;
+}
+
+
+/*small device*/
+
+@media screen and (max-width:576px) {
+    nav , .banner {
+        flex-direction: column;
+        text-align: center;
+       
+    }
+
+    .logos{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gear{
+        flex-direction: column;
+    }
+
+    .footer-style{
+        padding: 30px;
+    }
+
+
+}
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    nav , .banner{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logos{
+        gap:10px;
+    }
+ .gear{
+    flex-direction: column;
+    text-align: center;
+ }
+    .footer-style{
+        padding: 50px;
+    }
+  .banner{
+    margin-top: 10px;
+
+  }
+
+  ul{
+    align-items: center;
+  }
+}
